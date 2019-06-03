@@ -70,6 +70,7 @@ int main()
     //   2   table:     tbl  
     //   1   string:    I am so cool~  
     //=================== 栈底 ===================   
+    //获取被加载的函数
     lua_getglobal(L, "fix");        // 获取函数，压入栈中  
     lua_pushnumber(L, 10);          // 压入第一个参数  
     lua_pushnumber(L, 20);          // 压入第二个参数  
